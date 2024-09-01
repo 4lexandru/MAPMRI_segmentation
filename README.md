@@ -1,1 +1,1 @@
-# MAPMRI-based Cortical Cytoarchitectonic Segmentation
+# MAP-MRI-based Cortical Cytoarchitectonic Segmentation
