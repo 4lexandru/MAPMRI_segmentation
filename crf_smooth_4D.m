@@ -7,7 +7,7 @@ function vv = crf_smooth_4D(vin,outx,ksz,sigsc)
 %
 
 if nargin<4
-    sigsc = [1/2 1/2 10];
+    sigsc = [1/2 1/2 5];
 end
 
 if nargin<3
