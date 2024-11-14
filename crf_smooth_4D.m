@@ -15,6 +15,6 @@ if nargin<3
 end
 
 sz = size(vin);
-parfor k = 1:sz(4)
+for k = 1:sz(4)
     disp(k); vv(:,:,:,k) = crf_smooth_3D(vin(:,:,:,k),outx,ksz,sigsc);
 end
